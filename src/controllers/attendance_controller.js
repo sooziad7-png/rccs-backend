@@ -34,7 +34,6 @@ const getMyAttendanceHistory = asyncHandler(async (req, res) => {
 });
 
 module.exports = {
-  markAttendance,
   checkInWithQr,
   getAttendance,
   getPresentAttendance,
